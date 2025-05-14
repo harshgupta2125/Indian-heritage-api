@@ -3,17 +3,11 @@
   <i>A FastAPI project to explore India's rich cultural legacy through data.</i>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/fastapi-0.110+-brightgreen" />
-  <img src="https://img.shields.io/badge/python-3.10+-blue" />
-  <img src="https://img.shields.io/github/license/yourusername/india-heritage-api" />
-</p>
-
 ---
 
 ## 📚 Project Overview
 
-This API provides structured and searchable access to:
+This API provides Dummy data of structured and searchable access to:
 
 - 🏛️ **Historical Sites** – Monuments, temples, and landmarks recognized by UNESCO and ASI  
 - 🎭 **Cultural Events** – Festivals, fairs, and regional celebrations  
@@ -47,18 +41,20 @@ Perfect for travel apps, cultural guides, academic tools, or museum kiosks.
     Redoc: http://localhost:8801/redoc
 
 </details>
-🧭 API Routes
-Endpoint	Method	Description
-/sites/	GET	Returns a list of historical heritage sites
-/events/	GET	Lists cultural events and festivals
-/art/	GET	Shows public art installations
-/traditions/	GET	Displays traditional customs and folk arts
-/docs	GET	Interactive Swagger UI
 
-📁 Project Structure
-pgsql
-Copy
-Edit
+### Endpoints
+
+| Endpoint | Method | Description |
+| --- | --- | --- |
+| `/sites/` | GET | Returns a list of historical heritage sites |
+| `/events/` | GET | Lists cultural events and festivals |
+| `/art/` | GET | Shows public art installations |
+| `/traditions/` | GET | Displays traditional customs and folk arts |
+| `/docs` | GET | Interactive Swagger UI |
+
+## Project Structure
+
+```
 india-heritage-api/
 ├── main.py                       # FastAPI app
 ├── data/
@@ -68,6 +64,8 @@ india-heritage-api/
 │   └── local_traditions.json
 ├── requirements.txt
 └── README.md
+```
 
-<hr><br><br>
-Made with ❤️ by [Harsh Gupta]
+<hr> <br> <br>
+
+<h3> Created by [Harsh Gupta] </h3>
