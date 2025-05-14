@@ -18,29 +18,6 @@ Perfect for travel apps, cultural guides, academic tools, or museum kiosks.
 
 ---
 
-## 🚀 Getting Started
-
-<details>
-<summary><b>Step-by-step setup</b></summary>
-
-1. **Clone the repository**
-   git clone https://github.com/yourusername/india-heritage-api.git
-   cd india-heritage-api
-
-2. **Install dependencies**
-    pip install -r requirements.txt
-    
-3. **Run the server**
-    uvicorn main:app --reload --port 8801
-
-4. **Access your API**
-    Root: http://localhost:8801
-
-    Swagger Docs: http://localhost:8801/docs
-
-    Redoc: http://localhost:8801/redoc
-
-</details>
 
 ### Endpoints
 
@@ -65,6 +42,29 @@ india-heritage-api/
 ├── requirements.txt
 └── README.md
 ```
+## 🚀 Getting Started
+
+<details>
+<summary><b>Step-by-step setup</b></summary>
+
+1. **Clone the repository**
+   git clone https://github.com/yourusername/india-heritage-api.git
+   cd india-heritage-api
+
+2. **Install dependencies**
+    pip install -r requirements.txt
+    
+3. **Run the server**
+    uvicorn main:app --reload --port 8801
+
+4. **Access your API**
+    Root: http://localhost:8801
+
+    Swagger Docs: http://localhost:8801/docs
+
+    Redoc: http://localhost:8801/redoc
+
+</details>
 
 <hr> <br> <br>
 
